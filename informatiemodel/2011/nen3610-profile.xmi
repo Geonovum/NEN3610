@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="AE0BBA58-F" name="NEN3610" version="1.0" notes="NEN3610 - GML profiel.&#xA;Versie NEN 3610: 2011&#xA;"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="applicationSchema" notes="&#xA;a package representing an application schema as defined in ISO 19109  (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="xsdName" type="string" description="source: ShapeChange-v1.0rc" unit="" values="" default="FIXME"/>
+					<Tag name="xsdEncodingRule" type="enumeration" description="source: ShapeChange-v1.0rc" unit="" values="iso19136_2007,iso19139_2007,iso19136_2007_ShapeChange_1.0_Extensions,iso19136_2007_ShapeChange_NoGmlBasetypes,notEncoded" default=""/>
+					<Tag name="targetNamespace" type="string" description="-- Definition --&#xA;A unique XML namespace shall be associated with the UML Application Schema. Tagged values 'targetNamespace' for the target namespace URI and 'xmlns' for the abbreviation shall be set if and only if the package represents a UML application schema. &#xA;-- Source --&#xA;GML3.2.1" unit="" values="" default="FIXME"/>
+					<Tag name="xmlns" type="string" description="-- Definition --&#xA;A unique XML namespace shall be associated with the UML Application Schema. Tagged values 'targetNamespace' for the target namespace URI and 'xmlns' for the abbreviation shall be set if and only if the package represents a UML application schema. &#xA;-- Source --&#xA;GML3.2.1" unit="" values="" default="FIXME"/>
+					<Tag name="version" type="string" description="The version number of a package representing a UML &#xA;-- Definition --&#xA;Application Schema shall be specified in a tagged value 'version', if applicable. &#xA;-- Source --&#xA;GML3.2.1" unit="" values="" default=""/>
+					<Tag name="gmlProfileSchema" type="string" description="-- Definition --&#xA;A GML profile may be associated with the application schema by a tagged value 'gmlProfileSchema'. If provided, the value shall be a URL referencing the schema location of the GML profile. &#xA;-- Source --&#xA;GML3.2.1" unit="" values="" default=""/>
+					<Tag name="xsdDocument" type="String" description="-- Definition --&#xA;If a package shall be mapped to its own XML Schema document, a tagged value 'xsdDocument' shall be set providing a valid relative file name of the schema document. The tagged value shall be set for every package representing the UML Application Schema. All tagged values 'xsdDocument' in a UML model shall be unique. &#xA;-- Source --&#xA;GML3.2.1" unit="" values="" default="FIXME"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="baseSchema" notes="a package defining items of geographic information (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="codeList" notes="a flexible enumeration that uses string values for expressing a list of potential values (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Enumeration"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="codeList" type="string" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="dataType" notes="gestructureerd datatype zonder identiteit&#xA;[ISO/TS 19103:2005]&#xA;&#xA;a set of properties that lack identity (independent existence and the possibility of side effects). A data type is a class with no operations whose primary purpose is to hold information.  (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="enumeration" notes="a fixed list of valid identifiers of named literal values. Attributes of an enumerated type may only take values from this list  (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Enumeration"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="external" notes="objecttype dat als plaatsvervanger optreedt voor een objecttype dat in een ander model, het registratiemodel, wordt beschreven&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="featureClass" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0"/>
+			<Stereotype name="featureType" notes="geo-object [NEN-EN-ISO 19136]. Objecttype gebruikt voor het representeren van geo-informatie&#xA;&#xA;a feature type as defined by the General Feature Model in ISO 19109 (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="formeleHistorie" notes="attribuut voor historie van veranderingen van eigenschappen van een object in de registratie&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="formeleLevensduur" notes="attribuut voor vastleggen van tijdsinterval van geldigheid van het object in de registratie&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="identificatie" notes="attribuut voor unieke identificatie volgens NEN 3610&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="interface" notes="an abstract classifier with operations, attributes and associations, which can only inherit from or be inherited by other interfaces. Other classes may realize an interface by implementing its operations (without any overrides) and supporting its attributes and associations (at least through derivation). (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="leaf" notes="a package that contains definitions, without any sub packages (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="materieleHistorie" notes="attribuut voor historie van veranderingen van eigenschappen van een object in de werkelijkheid&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="materieleLevensduur" notes="attribuut voor vastleggen van tijdsinterval van geldigheid van het object in de werkelijkheid&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="union" notes="gestructureerd datatype zonder identiteit waarvan precies één van de eigenschappen aanwezig is in elke instantie&#xA;[ISO/TS 19103:2005]&#xA;&#xA;a type consisting of one and only one of several alternatives (listed as member attributes). This is similar to a discriminated union in many programming languages. In some languages using pointers, this requires a &amp;ldquo;void&amp;rdquo; pointer that can be cast to the appropriate type as determined by a discriminator attribute (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="asGroup" type="boolean" description="source: ShapeChange-v1.0rc" unit="" values="true,false" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="voidable" notes="identificeert een attribuut of associatierol als optioneel. Dat wil zeggen dat de waarde &amp;lsquo;void&amp;rsquo; een mogelijke waarde is voor die eigenschap&#xA;[ISO/TS 19103:2005]&#xA;&#xA;identifies an attribute or association role as optional, i.e. a value of &amp;lsquo;void&amp;rsquo; is a valid value of the property (ISO19103)&#xA;" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association">
+						<Property name="direction" value="Source -&gt; Destination"/>
+					</Apply>
+					<Apply type="Attribute">
+						<Property name="length" value=""/>
+						<Property name="rangeMinimum" value=""/>
+						<Property name="rangeMaximum" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
