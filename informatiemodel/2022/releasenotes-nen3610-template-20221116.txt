@@ -1,0 +1,16 @@
+NEN3610-2022-template-20221116.xmi
+
+2022-11-16
+Release notes.
+
+Het NEN3610-2022-template.xmi is het xmi bestand om te importeren in o.a. Sprarx Enterprise Architect.
+
+Het bevat het UML klassediagram van het semantisch model.
+
+Dit template kan worden gebruikt om toepassingen van NEN 3610 op te baseren.
+
+Voor de MIM-toolbox moet de MDG worden geinstaleerd: MDG_MIM_Toolbox_v1.1.1
+Voor de nen3610-MIM extensie zie de NEN3610MIMextensie.xml
+
+Release notes:
+- versie 20221116 is de eerste gepubliceerde versie

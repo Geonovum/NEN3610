@@ -1,0 +1,18 @@
+NEN3610MIMextensie-Build02.xml
+
+2022-11-16
+Release notes.
+
+Dit bestand is een Sparx Enterprise Architect UML-profiel met de implementatie van de extensie van NEN 3610 op MIM1.1.1.
+Het bevat de stereotypen die niet in MIM1.1.1 zitten maar wel in NEN 3610.
+Het kan in Sparx Enterprise Architect geladen worden als UML-profiel.
+
+
+
+
+
+
+
+
+
+
