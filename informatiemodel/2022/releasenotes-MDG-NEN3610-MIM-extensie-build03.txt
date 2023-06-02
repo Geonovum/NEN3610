@@ -1,0 +1,25 @@
+MDG-NEN3610-MIM-extensie-build03.xml
+
+2023-06-02
+Release notes.
+
+Dit bestand is een Sparx Enterprise Architect MDG-UML-profiel met de implementatie van de extensie van NEN 3610:2022 op MIM1-1.1.1
+Het bevat de stereotypen die niet in MIM1-1.1.1 zitten maar wel in NEN 3610.
+Het kan in Sparx Enterprise Architect geladen worden als MDG-technology.
+
+Aanpassing t.o.v versie NEN3610MIMextensie-Build02
+
+- build03 is een MDG waarin het profiel is opgenomen. Dit verbetert het gebruik in EA voor wat betreft toekennen en weer verwijderen van stereotypen;
+- build2 had een fout voor het toekennen van stereotype metadata aan een objecttype. In build03 is dat opgelost;
+- de naam van het profiel is veranderd in NEN 3610 - MIM extensie;
+- als de vorige buil02 al is geinstalleerd, deze verwijderen en de build03 installeren.
+
+
+
+
+
+
+
+
+
+

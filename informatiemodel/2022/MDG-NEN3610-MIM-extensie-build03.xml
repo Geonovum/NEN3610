@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<MDG.Technology version="1.0"><Documentation id="build03" name="NEN 3610 - MIM extensie" version="build03" notes="Extensie op MIM voor NEN 3610:2022. -- build 03 --" supportURI="www.geonovum.nl"/><UMLProfiles><UMLProfile profiletype="uml2">
+			<Documentation id="E3D9AED4-8" name="NEN3610-MIM-extensie" version="build 03" notes="NEN 3610:2022 extensie profile voor MIM - build 03"/>
+			<Content>
+				<Stereotypes>
+					<Stereotype name="Levensduur" notes="Typering dat dit attribuut wordt gebruikt voor de vastlegging van het tijdsinterval waarin dit informatieobject de werkelijkheid representeert. " cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Attribute"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Metadata" notes="Een set van gegevens die eigenschappen van gegevens beschrijft." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Association">
+								<Property name="compositionKind" value="none"/>
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+							<Apply type="AssociationEnd"/>
+							<Apply type="Attribute"/>
+							<Apply type="Class">
+								<Property name="isActive" value=""/>
+							</Apply>
+							<Apply type="Property">
+								<Property name="isReference" value="false"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="Ruimtelijke relatie" notes="De ruimtelijke of topologische relatie gebaseerd op de vastgelegde geometrie en hun onderlinge ruimtelijke samenhang." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Association">
+								<Property name="compositionKind" value="none"/>
+								<Property name="direction" value="Source -&gt; Destination"/>
+							</Apply>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TijdlijnGeldigheid" notes="Typering dat dit attribuut wordt gebruikt voor het beschrijven van de geldigheidsperiode van de gegevens." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Attribute"/>
+						</AppliesTo>
+					</Stereotype>
+					<Stereotype name="TijdlijnRegistratie" notes="Typering dat dit attribuut wordt gebruikt voor historie van veranderingen van gegevens van een informatieobject in de registratie." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+						<AppliesTo>
+							<Apply type="Attribute"/>
+						</AppliesTo>
+					</Stereotype>
+				</Stereotypes>
+				<TaggedValueTypes/>
+				<ViewDefinitions/>
+				<Metamodel/>
+			</Content>
+		</UMLProfile>
+	</UMLProfiles></MDG.Technology>
